@@ -27,3 +27,5 @@ b=8-4
 print(type(b))
 c=3*3
 print(type(c))
+
+
