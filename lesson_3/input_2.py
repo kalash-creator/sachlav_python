@@ -1,0 +1,11 @@
+# scores1, scores2=input("Enter scores: ").split()
+# print(type(int(scores1)))
+# print(type(int(scores2)))
+
+scores1, scores2, scores3=map(int, input("Enter scores separated by space: ").split())
+print(scores1)
+print(scores2)
+print(scores3)
+print(type(scores1))
+print(type(scores2))
+print(type(scores2))
