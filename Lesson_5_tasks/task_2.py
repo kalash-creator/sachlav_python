@@ -4,7 +4,7 @@ city_list=city_clean.split(",")
 print(city_list)
 letter="а"
 for i in range(5):
-    if letter in city_list[i]:
+    if letter in city_list[i].lower():
         print(f"{i+1} {city_list[i]} (в этом городе есть 'а')")
     else:
         print(f"{i+1} {city_list[i]}")
