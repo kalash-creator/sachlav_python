@@ -10,4 +10,4 @@ for index, item in enumerate(inventory, start=1):
 
     else: processed_items.append(f'{index}. {item}')
 print(f"\nИсходный список: {inventory}")
-print(f"Обработанные элементы: \n{processed_items}")
+print(f"Обработанные элементы: \n{'\n'.join(processed_items)}")
